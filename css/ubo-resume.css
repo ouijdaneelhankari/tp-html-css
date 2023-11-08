@@ -1,0 +1,101 @@
+html, button, input, select, textarea{
+
+    color: #444;}
+    
+    html { font-size: 1em, ne height 1.4;}
+    /* Réinitialisation des styles par défaut */
+body, h1, h2, h3, p, ul, dl {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #777; /* Fond de page sombre */
+    color: #fff; /* Couleur du texte */
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    max-width: 900px;
+    min-width: 320px;
+    margin: 0 auto; /* Centrer en milieu de page */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+}
+
+header {
+    background-color: #fff; /* Fond blanc */
+    border: 1px solid #ccc; /* Bordure d'épaisseur 1px, couleur #ccc */
+    border-radius: 3px; /* Coins arrondis */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+}
+
+header img {
+    float: right; /* Aligner l'image à droite */
+    border: 1px solid #ccc; /* Bordure d'épaisseur 1px, couleur #ccc */
+    border-radius: 3px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+    margin-left: 20px;
+}
+
+/* Styling pour les liens */
+a {
+    color: #fff; /* Couleur du texte des liens */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Souligner les liens au survol */
+}
+/* Ajoutez ces règles CSS à votre fichier resume.css pour personnaliser le style de votre page */
+
+/* Style du corps de la page */
+body {
+    font-family: 'MaPolice', sans-serif; /* Utilisez la police que vous avez choisie avec Adobe Edge Web Fonts */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style des titres de section */
+h2 {
+    color: #ff9900; /* Couleur orange pour les titres de section */
+    margin-bottom: 10px;
+}
+
+/* Style des liens */
+a {
+    color: #00bfff; /* Couleur bleue pour les liens */
+}
+
+a:hover {
+    color: #ff9900; /* Couleur orange au survol des liens */
+}
+
+/* Style des listes non ordonnées */
+ul {
+    list-style: none; /* Supprime les puces des listes non ordonnées */
+}
+
+ul li::before {
+    content: "\2022"; /* Utilise un cercle comme puce */
+    color: #ff9900; /* Couleur orange pour les puces de liste */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #333; /* Fond sombre pour le pied de page */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ajoutez d'autres styles selon vos préférences */
+
